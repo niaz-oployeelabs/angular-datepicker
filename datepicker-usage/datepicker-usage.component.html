@@ -1,0 +1,10 @@
+<div class="container">
+	<div style="position: relative;">	
+		<input type="text" name="" class="form-control" [ngModel] = "dp_date"
+		style="width:400px;" (click)="operate_dp()" />
+
+		<doctorola-datepicker *ngIf="datepicker" 
+		(clicked_date)="received_date($event)"
+		[selected_day]="dp_date"></doctorola-datepicker>	
+	</div>	
+</div>	

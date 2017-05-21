@@ -1,0 +1,23 @@
+.main_container{
+	width:300px;
+	position:absolute;
+	top:40px;
+	left:0;
+	background-color: #fff;
+	z-index: 2000;
+	border:1px solid #CCCCCC;
+	padding: 10px 15px;
+}
+.valued_td{
+	cursor: pointer;
+	width:14%;
+}
+.valued_td:hover{
+	background-color: #E3E3E3;
+}
+.today_date{
+	background-color: #666666;
+}
+.selected{
+	background-color:blue;
+}
